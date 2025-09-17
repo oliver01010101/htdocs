@@ -5,14 +5,14 @@ echo "<h3>while</h3>";
 $i = 1;
 while($i <= 10){
     echo $i . "";
-    i++;
+    $i++;
 }
 
 echo "<h3>do-while</h3>";
 $j = 1;
 do {
     echo $j . " ";
-    j++;
+    $j++;
 } while($j <= 10);
 
 echo "<h3>for</h3>";
