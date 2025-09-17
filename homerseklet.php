@@ -27,7 +27,6 @@
             $temp = (double)$_POST['input'];
 
             echo check_input($temp);
-
         }
 
         function check_input($temp){
