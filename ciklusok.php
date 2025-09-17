@@ -45,6 +45,7 @@ $student = [
     "osztály" => "2/14"
 ];
 
-foreach($students as $key => $value){}
+foreach($students as $key => $value){
     echo "key: $value<br>";
+}
 ?>
