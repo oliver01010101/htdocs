@@ -46,7 +46,7 @@ $is_valid = false;
         <form method="post">
             <label>
                 Nap sorszáma(1-7):
-                <input type="number" name="day" id="day" min="0" max="7" class="form-control" <?= $is_valid ? "value='".$result."'" : "" ?>>
+                <input type="number" name="day" id="day" min="0" max="7" class="form-control <?= $is_valid ? '' : 'error-border'?>">
             </label>
             <button type="submit">Kiír</button>
         </form>
