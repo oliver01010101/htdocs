@@ -30,7 +30,6 @@
 
         }
 
-
         function check_input($temp){
             if($temp == ""){
                 return "Adj meg egy érvényes hőmérsékletet";
