@@ -25,7 +25,6 @@
 
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $temp = (double)$_POST['input'];
-
             echo check_input($temp);
         }
 
