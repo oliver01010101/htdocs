@@ -1,8 +1,8 @@
 <style>
     table,td,th {
-        border: 1px solid #999;
+        border: 1px solid #c1c1c1;
         border-collapse: collapse;
-        padding: 4px;
+        padding: 8px;
         text-align: center;
     }
 </style>
